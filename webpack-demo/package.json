@@ -1,0 +1,33 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash-es": "^4.17.11",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}
