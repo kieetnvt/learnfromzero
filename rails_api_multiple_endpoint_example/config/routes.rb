@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       namespace :mobile do
         resources :users
+        resources :companies
       end
 
       namespace :react do

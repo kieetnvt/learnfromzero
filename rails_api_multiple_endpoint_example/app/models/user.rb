@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  def upcase_name
-    self.name.upcase
-  end
+  has_many :user_skills
+  has_many :skills, through: :user_skills
+  belongs_to :company
 end

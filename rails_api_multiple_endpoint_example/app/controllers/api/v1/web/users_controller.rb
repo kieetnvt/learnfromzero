@@ -6,8 +6,8 @@ module Api
 
         def index
           @users ||= [1,2,3]
-          response_json(action: 'V1 Index', users: @users)
-          # {"action":"V1 Index","users":[1,2,3]}
+          # { "action":"V1 Index", "users":[1,2,3] }
+          response_json({action: 'V1 Index', users: @users})
         end
       end
     end
