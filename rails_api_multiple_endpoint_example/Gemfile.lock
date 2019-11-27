@@ -50,6 +50,7 @@ GEM
     apipie-rails (0.5.15)
       rails (>= 4.1)
     arel (9.0.0)
+    benchmark-ips (2.7.2)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -152,6 +153,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   apipie-rails
+  benchmark-ips
   bootsnap (>= 1.1.0)
   byebug
   listen (>= 3.0.5, < 3.2)
@@ -168,4 +170,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.16.2
+   1.16.6

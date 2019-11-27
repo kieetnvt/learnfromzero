@@ -5,9 +5,9 @@ module Api
         include UserableCrudAction
 
         def index
-          @users ||= [1,2,3]
+          @users = [1,2,3]
           # { "action":"V1 Index", "users":[1,2,3] }
-          response_json({action: 'V1 Index', users: @users})
+          render json: @users
         end
       end
     end
