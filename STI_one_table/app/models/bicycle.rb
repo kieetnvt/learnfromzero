@@ -1,2 +1,0 @@
-class Bicycle < Vehicle
-end
