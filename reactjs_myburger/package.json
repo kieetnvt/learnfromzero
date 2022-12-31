@@ -23,7 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "css-loader": "^1.0.1",
-    "style-loader": "^0.23.1"
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1"
   }
 }
